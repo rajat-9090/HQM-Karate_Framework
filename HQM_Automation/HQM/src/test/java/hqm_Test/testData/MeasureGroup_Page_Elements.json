@@ -1,0 +1,14 @@
+{
+  "SupersetSection": "//p[normalize-space()='Supersets']",
+  "MeasureGroupsSection": "//p[normalize-space()='Measure Groups']",
+  "addMeasureGroupPage": "//a[normalize-space()='Add Measure Group']",
+  "fieldMeasureGroup": "//label[normalize-space()='Measure Group']",
+  "MeasureGroupSection": "//input[@placeholder='Enter Measure Group Name']",
+  "btnAdd": ".btn.btn-primary.add_btn",
+  "btnCancel": "//button[normalize-space()='Cancel']",
+  "btnUpdate": "//button[normalize-space()='Update']",
+  "successMSG": "//div[@class='alert alert-success alert-dismissible fade show']",
+  "showDropdown": "//select[starts-with(@name, 'DataTables_Table')]",
+  "btnEdit": "tbody tr:nth-last-child(2) button:nth-child(1)",
+  "BlankMeasureGroupError": "//span[contains(text(), 'Measure Group Name is Required!')]"
+}

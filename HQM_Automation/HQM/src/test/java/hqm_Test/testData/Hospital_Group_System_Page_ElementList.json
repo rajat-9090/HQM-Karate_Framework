@@ -1,0 +1,18 @@
+{
+  "SupersetSection": "//p[normalize-space()='Supersets']",
+  "HospitalGroupSystemSection": "//p[normalize-space()='Hospital Group System']",
+  "addGroupSystemPage": "//a[normalize-space()='Add Group System']",
+  "fieldGroupSystemID": "//label[normalize-space()='Group System ID']",
+  "fieldGroupSystem": "//label[normalize-space()='Group System']",
+  "btnAdd": ".btn.btn-primary.add_btn",
+  "btnCancel": "//button[normalize-space()='Cancel']",
+  "btnEdit": "tbody tr:nth-last-child(2) button:nth-child(1)",
+  "btnUpdate": "//button[normalize-space()='Update']",
+  "showDropdown": "//select[starts-with(@name, 'DataTables_Table')]",
+  "GroupSystemIDSection": "//input[@placeholder='Group System ID']",
+  "GroupSystemSection": "//input[@placeholder='Group System']",
+  "BlankGroupSystemIDError": "//span[contains(text(), 'Group System ID is Required')]",
+  "BlankGroupSystemError": "//span[contains(text(), 'Group System Name is Required')]",
+  "InvalidGroupSystemError": "//span[contains(text(), 'Group System Name only Characters')]",
+  "successMSG": "//div[@class='alert alert-success alert-dismissible fade show']"
+}

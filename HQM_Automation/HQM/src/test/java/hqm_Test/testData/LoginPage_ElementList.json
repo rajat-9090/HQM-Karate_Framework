@@ -1,0 +1,11 @@
+{
+  "txtEmail": "#email",
+  "txtPassword": "#apassword",
+  "btnSubmit": "//button[normalize-space()='Submit']",
+  "invalidCredentialError": ".alert.alert-danger.alert-dismissible.fade.show",
+  "blankEmailError": "//span[contains(text(),'Email is required!')]",
+  "blankPassError": "//span[contains(text(),'Password is required!')]",
+  "invalidEmailFormatError": "//span[contains(text(),'Invalid Email!')]",
+  "invalidPassLengthError": "//span[contains(text(),'Minimum length 8 character!')]",
+  "errorMSG": ".error.text-danger"
+}
